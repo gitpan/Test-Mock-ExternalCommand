@@ -5,8 +5,8 @@ use Config;
 use Carp;
 use Variable::Expand::AnyLevel qw(expand_variable);
 
-use 5.008;
-our $VERSION = '0.02';
+use 5.010;
+our $VERSION = '0.03';
 
 my $command_registry = {};
 my $command_history = {};
